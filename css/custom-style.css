@@ -1,0 +1,487 @@
+/* ==================
+Tier 27
+Copyright 2014
+written for - Backpacker Transfers
+
+swatch colors
+=====================
+#E77F1E - orange
+#477B0F - green
+===================== */
+
+/* General Layout
+================================================== */
+body {
+    background: #f5efe0 !important;
+    margin-top: 20px !important;
+}
+
+/* Global Styling
+================================================== */
+/* 
+bootstrap columns and row 
+*/
+.row-loose {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.col-tight {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+.fa-asterisk {
+    font-size: 8px;
+    vertical-align: top;
+    color: #E77F1E;
+    line-height: 20px !important;
+}
+.img-centered {
+    display: block;
+    float: none;
+    margin: 0 auto;
+}
+.page-header {
+    margin-top: 5px !important;
+}
+.page-header h3 {
+    margin: 0;
+    color: #444;
+    font-family: 'Roboto', sans-serif;
+}
+/* 
+Book Change/Cancel Widget 
+*/
+.bw-page {
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 8px 6px -6px #444;
+     -moz-box-shadow: 0 8px 6px -6px #444;
+          box-shadow: 0 8px 6px -6px #444;
+}
+.widget-hr {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(199,182,134,.8), rgba(199,182,134,0.95), rgba(199,182,134,.8)); 
+    background-image:    -moz-linear-gradient(left, rgba(199,182,134,.8), rgba(199,182,134,0.95), rgba(199,182,134,.8)); 
+    background-image:     -ms-linear-gradient(left, rgba(199,182,134,.8), rgba(199,182,134,0.95), rgba(199,182,134,.8)); 
+    background-image:      -o-linear-gradient(left, rgba(199,182,134,.8), rgba(199,182,134,0.95), rgba(199,182,134,.8)); 
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+.booking-widget-asterisk {
+    color: #E31D27 !important;
+    font-size: 9px !important;
+    vertical-align: top !important;
+}
+.breadcrumb {
+    padding: 8px 0 !important;
+    background: none !important;
+    margin-bottom: 0 !important;
+}
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #be6a1b;
+    font-size: 0;
+    line-height: 0;
+    margin: 10px auto 0 auto;
+}
+.bw-green {
+    color: #549212;
+}
+.bw-flight-box-border {
+    border: 5px solid #eae2cc;
+    border-radius: 5px;
+    background-image: -webkit-linear-gradient(left, #D2C298 0%, #E9DEC0 50%, #D2C298 100%);  
+    background-image: -moz-linear-gradient(left, #D2C298 0%, #E9DEC0 50%, #D2C298 100%);  
+    background-image: -ms-linear-gradient(left, #D2C298 0%, #E9DEC0 50%, #D2C298 100%);  
+    background-image: -o-linear-gradient(left, #D2C298 0%, #E9DEC0 50%, #D2C298 100%);  
+    background-image: linear-gradient(left, #D2C298 0%, #E9DEC0 50%, #D2C298 100%);  
+}
+.bw-flight-box-table {
+    border-radius: 2px;
+    padding: 0 25px;
+}
+.bw-flight-box-table-select-transfer {
+    padding: 15px 5px 5px 5px;
+}
+/* 
+Buttons 
+*/
+#book-orange-btn,
+.booking-widget-btn {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    opacity: .9;
+}
+#book-orange-btn:hover,
+.booking-widget-btn:hover {
+    opacity: 1;
+}
+.bw-button-vertical-align {
+    margin-top: -10px;
+}
+/* Book Now
+================================================== */
+
+.booking-widget-border {
+    border: 5px solid #EAE2CC;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+#booking-widget {
+    
+}
+#booking-widget-content {
+    background-image: -webkit-linear-gradient(left, #D2C298 0%, #E9DEC0 50%, #D2C298 100%);  
+    background-image: -moz-linear-gradient(left, #D2C298 0%, #E9DEC0 50%, #D2C298 100%);  
+    background-image: -ms-linear-gradient(left, #D2C298 0%, #E9DEC0 50%, #D2C298 100%);  
+    background-image: -o-linear-gradient(left, #D2C298 0%, #E9DEC0 50%, #D2C298 100%);  
+    background-image: linear-gradient(left, #D2C298 0%, #E9DEC0 50%, #D2C298 100%);  
+    padding: 5px 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.nav > li > a {
+    padding: 2px 35px 2px 35px !important;
+    margin-right: 0 !important;
+    margin-top: 10px;
+}
+#booking-tabs li a {
+    background: #D1751E;
+    color: #ffffff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-left: 1px solid #A55509;
+    -webkit-box-shadow: inset 0 20px 20px -20px rgba(100,48,0,1);
+    -moz-box-shadow: inset 0 20px 20px -20px rgba(100,48,0,1);
+    box-shadow: inset 0 20px 20px -20px rgba(100,48,0,1);
+}
+#booking-tabs li.active a {
+    background: #D1751E;
+    color: #ffffff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-right: 1px solid #F1A358 !important;
+    border-left: none;
+    padding: 10px 15px 2px 15px !important;
+    margin-top: 2px;
+    box-shadow: none;
+}
+/* 
+styling for inputs and labels 
+*/
+.booking-widget-label, .booking-widget-label span {
+    margin-top: 10px;
+    margin-bottom: 2px;
+    color: #5B460D;
+    font-weight: 300;
+    font-size: 13px;
+}
+.book-now-option input.input, .book-now-option select {
+    height: 28px;
+    font-size: 11px;
+    border-radius: 0;
+    border: 1px solid #BBA25E;
+}
+.booking-widget-small-label {
+    font-size: 11px;
+    color: #7C6935;
+}
+select.passengers {
+    margin-top: 10px;
+}
+label.passengers {
+    margin-top: 15px;
+}
+
+/* Flight Information
+================================================== */
+
+.breadcrumb {
+    background: none;
+}
+.breadcrumb li {
+    color: #cebe92;
+}
+.bw-active {
+    background-image: -webkit-linear-gradient(top, #e5872e 0%, #b8610f 100%);  
+    background-image: -moz-linear-gradient(top, #e5872e 0%, #b8610f 100%);  
+    background-image: -ms-linear-gradient(top, #e5872e 0%, #b8610f 100%);  
+    background-image: -o-linear-gradient(top, #e5872e 0%, #b8610f 100%);  
+    background-image: linear-gradient(top, #e5872e 0%, #b8610f 100%);
+    color: #ffffff !important;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px 15px 6px 15px;
+}
+.bw-active:hover {
+    background-image: -webkit-linear-gradient(top, #e5872e 0%, #b8610f 100%) !important;  
+    background-image: -moz-linear-gradient(top, #e5872e 0%, #b8610f 100%) !important;  
+    background-image: -ms-linear-gradient(top, #e5872e 0%, #b8610f 100%) !important;  
+    background-image: -o-linear-gradient(top, #e5872e 0%, #b8610f 100%) !important;  
+    background-image: linear-gradient(top, #e5872e 0%, #b8610f 100%) !important;
+}
+.bw-flight-info-section {
+    padding-top: 20px;
+}
+ul.bw-flight-info-table li, #bw-flight-info-table p {
+    color: #5B460D;
+    font-weight: 300;
+}
+.bw-flight-info-label, .bw-flight-info-label span {
+    margin-bottom: 2px;
+    color: #5B460D;
+    font-weight: 300;
+    font-size: 13px;
+}
+.bw-input {
+    border-radius: 0 !important;
+    border: 1px solid #bba25e !important;
+}
+
+#bw-flight-info-arrive-at,
+#bw-flight-info-depart-at {
+    width: 45px;
+    height: 25px;
+}
+#bw-flight-info-arrive-flight-number,
+#bw-flight-info-depart-flight-number {
+    width: 150px;
+    height: 25px;
+}
+
+/* Search Results Select Transfer
+================================================== */
+
+#bw-search-results-select-transfer-page {
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 8px 6px -6px #444;
+     -moz-box-shadow: 0 8px 6px -6px #444;
+          box-shadow: 0 8px 6px -6px #444;
+}
+#bw-search-results-select-transfer-page {
+    color: #5B460D;
+    font-weight: 300;
+}
+/* 
+Curved Table CSS
+*/
+.table-curved {
+    border-collapse: separate;
+}
+.table-curved {
+    border: solid #ccc 1px;
+    border-radius: 6px;
+    border-left:0px;
+}
+.table-curved td, .table-curved th {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+.table-curved th {
+    border-top: none;
+}
+.table-curved th:first-child {
+    border-radius: 6px 0 0 0;
+}
+.table-curved th:last-child {
+    border-radius: 0 6px 0 0;
+}
+.table-curved th:only-child {
+    border-radius: 6px 6px 0 0;
+}
+.table-curved tr:last-child td:first-child {
+    border-radius: 0 0 0 6px;
+}
+.table-curved tr:last-child td:last-child {
+    border-radius: 0 0 6px 0;
+}
+/*
+Search Results Table
+*/
+#bw-search-results-select-transfer-table {
+    background: #D2C298;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    padding: 1px;
+    background-color: #fff !important;
+
+}
+#bw-search-results-select-transfer-table th,
+#bw-search-results-select-transfer-table td  {
+    border-color: #fff; 
+}
+#bw-search-results-select-transfer-table th {
+    border-bottom: none;
+    font-weight: 700;
+    background-image: -webkit-linear-gradient(top, #DFD3AF 0%, #CABA8D 100%);  
+    background-image: -moz-linear-gradient(top, #DFD3AF 0%, #CABA8D 100%);  
+    background-image: -ms-linear-gradient(top, #DFD3AF 0%, #CABA8D 100%);  
+    background-image: -o-linear-gradient(top, #DFD3AF 0%, #CABA8D 100%);  
+    background-image: linear-gradient(top, #DFD3AF 0%, #CABA8D 100%);
+}
+/* time selection */
+.search-results-select-transfer-table_time-selection td {
+    text-align: center;
+    font-weight: 400 !important;
+    background: #eee;
+}
+td.table_time-selection-active {
+    background-image: -webkit-linear-gradient(top, #DFD3AF 0%, #CABA8D 100%) !important;  
+    background-image: -moz-linear-gradient(top, #DFD3AF 0%, #CABA8D 100%) !important;  
+    background-image: -ms-linear-gradient(top, #DFD3AF 0%, #CABA8D 100%) !important;  
+    background-image: -o-linear-gradient(top, #DFD3AF 0%, #CABA8D 100%) !important;  
+    background-image: linear-gradient(top, #DFD3AF 0%, #CABA8D 100%) !important;
+}
+.search-results-select-transfer-table_time-selection td a .fa {
+    color: red;
+    width: 100%;
+    font-size: 30px;
+    color: #715710;
+    padding: 10px 0;
+}
+.search-results-select-transfer-table_time-selection td a .fa:hover {
+    color: #5b460d;
+}
+.search-results-select-transfer-table_time-selection td.table_time-selection-arrow {
+    line-height: 40px;
+}
+#bw-search-results-select-transfer-table td {
+    background: #F1EDE5;
+    font-weight: 300;
+}
+.search-results-print {
+    border: 1px solid #C8C8C8;
+    padding: 5px;
+}
+table#search-results-select-transfer-pricing td {
+    background: #eeeeee;
+}
+table#search-results-select-transfer-pricing td.question-mark {
+    background: #ffffff;
+}
+#btn-back-search-results {
+    margin-top: 10px;
+    background-image: -webkit-linear-gradient(top, #D7D7D7 0%, #979797 100%);  
+    background-image: -moz-linear-gradient(top, #D7D7D7 0%, #979797 100%);  
+    background-image: -ms-linear-gradient(top, #D7D7D7 0%, #979797 100%);  
+    background-image: -o-linear-gradient(top, #D7D7D7 0%, #979797 100%);  
+    background-image: linear-gradient(top, #D7D7D7 0%, #979797 100%);
+    color: #fff;
+    width: 110px;
+}
+/* Agree to terms checkbox */
+#search-results-select-transfer-checkbox a {
+    color: #666666;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+/* Change Transfer Booking
+================================================== */
+
+#change-cancel a {
+    color: #5B460D;
+    text-decoration: underline;
+}
+
+/* Booking Review
+================================================== */
+
+#bw-header {
+    margin-bottom: 0;
+}
+#bw-header a {
+    text-align: left;
+    padding: 4px 12px !important;
+    margin-right: 5px !important;
+    color: #cebe92;
+}
+#bw-header a:hover {
+    color: #ad9450;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.navbar-default .navbar-toggle {
+    background-color: rgba(242, 111, 71, 0.1) !important; 
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: rgba(242, 111, 71, 0.2) !important;
+}
+/*
+ * Navbar Collapse
+ */
+.bw-navbar-collapse {
+    margin-bottom: 10px;
+}
+.bw-navbar-collapse a {
+    color: #E77F1E;
+    margin-bottom: -10px !important;
+    border-radius: none;
+}
+.bw-navbar-collapse a:hover {
+    background: #F1EDE5;
+    color: #E77F1E;
+}
+#bw-header .navbar-toggle {
+    border-color: #f26f47 !important;
+}
+#bw-header .navbar-toggle .icon-bar {
+    background-color: #f26f47 !important;
+}
+
+/* Select New Transfer
+================================================== */
+
+.bw-label-vertical-align {
+    line-height: 10px;
+}
+.bw-advertisement {
+    background: #EEEEEE;
+    padding: 20px;
+}
+
+/* Make a Payment
+================================================== */
+#bw-payment-page {
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 8px 6px -6px #444;
+     -moz-box-shadow: 0 8px 6px -6px #444;
+          box-shadow: 0 8px 6px -6px #444;
+    margin-bottom: 100px;
+}
+#bw-payment-form label {
+    color: #4C4C4C;
+    font-weight: 300;
+}
+#bw-payment-form input {
+    border-radius: 0;
+    height: 28px;
+}
+#bw-payment-options .radio {
+    margin-bottom: 20px;
+    color: #4C4C4C;
+    font-weight: 300;
+}
+table#bw-payment-pricing-table td {
+    background: #eeeeee;
+}
+table#bw-payment-pricing-table td.question-mark {
+    background: #ffffff;
+}
+table#bw-payment-pricing-table span,
+table#bw-payment-pricing-table select {
+    display: inline-block;
+}
+table#bw-payment-pricing-table select {
+    width: 50px;
+    margin-left: 5px;
+}

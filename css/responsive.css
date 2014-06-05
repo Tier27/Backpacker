@@ -1,0 +1,95 @@
+/* Large desktop */
+@media (min-width: 1200px) {  
+	h2 {
+		font-size: 30px !important;
+	}
+	h3 {
+		font-size: 24px !important;
+	}
+	#bw-header {
+    margin-left: -30px;
+}
+}
+@media (min-width: 980px) and (max-width: 1200px) {
+	h2 {
+		font-size: 30px !important;
+	}
+	h3 {
+		font-size: 24px !important;
+	}
+	#bw-header {
+    margin-left: -30px;
+}
+}
+	
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+	h3 {
+		font-size: 24px !important;
+	}
+	#bw-header {
+    margin-left: -30px;
+}
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	/* global */
+	.col-xs-center {
+		text-align: center;
+	}
+	/* buttons */
+	.bw-button-vertical-align {
+		margin-top: 5px !important;
+	}
+	/* widget */
+	.widget label {
+		float: left;
+	}
+	/* search results select transfer */
+	.booking-widget-btn,
+	#btn-back-search-results,
+	.img-centered-small {
+		display: block;
+		float: none;
+		margin: 0 auto;
+	}
+	#bw-header a {
+		padding: 10px 0 !important;
+	}
+	/*
+	Payment Page
+	*/
+	#bw-promotion-code li {
+		display: block;
+		text-align: center;
+	}
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+	h2 {
+		font-size: 24px !important;
+	}
+
+	h3 {
+		font-size: 18px !important;
+	}
+	.nav > li > a {
+	    padding: 2px 12px 2px 12px !important;
+	    margin-right: 0 !important;
+	    margin-top: 10px;
+	}
+	#booking-tabs li.active a {
+	    background: #D1751E;
+	    color: #ffffff;
+	    border-top-left-radius: 10px;
+	    border-top-right-radius: 10px;
+	    border-right: 1px solid #F1A358 !important;
+	    border-left: none;
+	    padding: 10px 8.5px 2px 8.5px !important;
+	    margin-top: 2px;
+	    box-shadow: none;
+	}
+
+}
